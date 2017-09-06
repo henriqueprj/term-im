@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C5175359-8C68-4EED-BC50-67261C3E09BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TermIM.Producer", "src\TermIM.Producer\TermIM.Producer.csproj", "{0ABE59FC-A073-4CBF-A8E6-481B2BC20B88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TermIM.Consumer", "src\TermIM.Consumer\TermIM.Consumer.csproj", "{3C140509-53A0-49A2-A90A-3BD84B3920A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TermIM.Contracts", "src\TermIM.Contracts\TermIM.Contracts.csproj", "{AFA2860F-4FC5-4B4E-BDCF-CDEAFC5B4D33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ABE59FC-A073-4CBF-A8E6-481B2BC20B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ABE59FC-A073-4CBF-A8E6-481B2BC20B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ABE59FC-A073-4CBF-A8E6-481B2BC20B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ABE59FC-A073-4CBF-A8E6-481B2BC20B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C140509-53A0-49A2-A90A-3BD84B3920A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C140509-53A0-49A2-A90A-3BD84B3920A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C140509-53A0-49A2-A90A-3BD84B3920A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C140509-53A0-49A2-A90A-3BD84B3920A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA2860F-4FC5-4B4E-BDCF-CDEAFC5B4D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA2860F-4FC5-4B4E-BDCF-CDEAFC5B4D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA2860F-4FC5-4B4E-BDCF-CDEAFC5B4D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA2860F-4FC5-4B4E-BDCF-CDEAFC5B4D33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0ABE59FC-A073-4CBF-A8E6-481B2BC20B88} = {C5175359-8C68-4EED-BC50-67261C3E09BC}
+		{3C140509-53A0-49A2-A90A-3BD84B3920A6} = {C5175359-8C68-4EED-BC50-67261C3E09BC}
+		{AFA2860F-4FC5-4B4E-BDCF-CDEAFC5B4D33} = {C5175359-8C68-4EED-BC50-67261C3E09BC}
+	EndGlobalSection
+EndGlobal
